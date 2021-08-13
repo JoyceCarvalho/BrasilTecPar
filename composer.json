@@ -1,0 +1,19 @@
+{
+	"require": {
+		"php": ">= 7.0",
+		"pusher/pusher-php-server": "^7.0",
+		"league/csv": "^9.7"
+	},
+	"authors": [
+		{
+			"name": "Joyce Carvalho",
+			"email": "goncalvesjoyce8@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"App\\": "App/",
+			"BF\\": "vendor/BF/"
+		}
+	}
+}
